@@ -1,0 +1,206 @@
+{
+  "info": {
+    "year": "2023",
+    "version": "3",
+    "description": "Exported from roboflow.ai",
+    "contributor": "",
+    "url": "",
+    "date_created": "2023-07-31T03:37:35+00:00"
+  },
+  "licenses": [
+    {
+      "id": 1,
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "name": "CC BY 4.0"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "stone",
+      "supercategory": "none"
+    }
+  ],
+  "images": [
+    {
+      "id": 0,
+      "license": 1,
+      "file_name": "LINE_ALBUM_Coin_231012_1_jpg.rf.60ff61e1d002b60cd61df947f4224b2b.jpg",
+      "height": 598,
+      "width": 655,
+      "date_captured": "2023-07-31T03:37:35+00:00"
+    },
+    {
+      "id": 1,
+      "license": 1,
+      "file_name": "LINE_ALBUM_Coin_231012_2_jpg.rf.337182d4c8356e00605ce4e2dbf54a52.jpg",
+      "height": 648,
+      "width": 593,
+      "date_captured": "2023-07-31T03:37:35+00:00"
+    },
+    {
+      "id": 2,
+      "license": 1,
+      "file_name": "LINE_ALBUM_Coin_231012_3_jpg.rf.18d98c56a62c48bc42493ec0e73d77f5.jpg",
+      "height": 635,
+      "width": 642,
+      "date_captured": "2023-07-31T03:37:35+00:00"
+    },
+    {
+      "id": 3,
+      "license": 1,
+      "file_name": "LINE_ALBUM_Coin_231012_5_jpg.rf.5f349bac5632cbf572635e890b838a55.jpg",
+      "height": 647,
+      "width": 542,
+      "date_captured": "2023-07-31T03:37:35+00:00"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 0,
+      "image_id": 0,
+      "category_id": 0,
+      "bbox": [
+        186.5,
+        58,
+        307.5,
+        206
+      ],
+      "area": 13191.5,
+      "segmentation": [
+        [
+          305,
+          99,
+          286,
+          68,
+          240,
+          58,
+          186,
+          95,
+          188,
+          162,
+          263,
+          206,
+          307,
+          158,
+          305,
+          100
+        ]
+      ],
+      "iscrowd": 0
+    },
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        184.5,
+        281,
+        269.5,
+        365
+      ],
+      "area": 5539,
+      "segmentation": [
+        [
+          258,
+          287,
+          210,
+          281,
+          184,
+          311,
+          189,
+          356,
+          237,
+          365,
+          259,
+          352,
+          269,
+          310,
+          255,
+          284
+        ]
+      ],
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 2,
+      "category_id": 0,
+      "bbox": [
+        90.5,
+        125,
+        216.5,
+        254
+      ],
+      "area": 12453,
+      "segmentation": [
+        [
+          188,
+          145,
+          167,
+          125,
+          121,
+          126,
+          101,
+          148,
+          90,
+          185,
+          104,
+          239,
+          181,
+          254,
+          216,
+          221,
+          210,
+          170,
+          187,
+          143
+        ]
+      ],
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 3,
+      "category_id": 0,
+      "bbox": [
+        309.5,
+        202,
+        459.5,
+        327
+      ],
+      "area": 14207,
+      "segmentation": [
+        [
+          447,
+          224,
+          392,
+          202,
+          353,
+          217,
+          321,
+          241,
+          309,
+          259,
+          317,
+          291,
+          350,
+          319,
+          385,
+          327,
+          417,
+          326,
+          448,
+          319,
+          459,
+          284,
+          456,
+          248,
+          446,
+          219
+        ]
+      ],
+      "iscrowd": 0
+    }
+  ]
+}
