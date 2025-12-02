@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+    <title>標記平台</title>
+    <!-- BOOTSTRAP CORE STYLE -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICON STYLE -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <style>
+        .center-box {
+            position: relative;
+            width: 700px;
+            height: 700px;
+            left:500px;
+            top:50px;
+            margin-bottom: 300px;
+            border: 1px solid #808080;
+            text-align: center;
+        }
+	.right-box {
+            position: absolute;
+            width: 300px;
+            height: 400px;
+            top: 0px;
+            right: -370px;
+            border: 1px solid #808080;
+            text-align: center;
+        }
+	.button-new_class {
+            position: absolute;
+            box-sizing: border-box;
+            width: 100px;
+            height: 50px;
+            padding: 5px;
+            top: 0px;
+            left: -140px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #808080;  /* Changed this */
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+	.button-prev {
+            position: absolute;
+            box-sizing: border-box;
+            width: 100px;
+            height: 50px;
+            padding: 5px;
+            bottom: -70px;
+            left: 150px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #808080;  /* Changed this */
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+	.button-next {
+            position: absolute;
+            box-sizing: border-box;
+            width: 100px;
+            height: 50px;
+            padding: 5px;
+            bottom: -70px;
+            left: 450px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #808080;  /* Changed this */
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+	.button-upload {
+            position: absolute;
+            box-sizing: border-box;
+            width: 100px;
+            height: 50px;
+            padding: 5px;
+            bottom: -70px;
+            left: 300px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #808080;  /* Changed this */
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+	.button-save {
+            position: absolute;
+            box-sizing: border-box;
+            width: 100px;
+            height: 50px;
+            padding: 5px;
+            bottom: 200px;
+            right: -170px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #808080;  /* Changed this */
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+	.button-change {
+            position: absolute;
+            box-sizing: border-box;
+            width: 100px;
+            height: 50px;
+            padding: 5px;
+            bottom: 100px;
+            right: -170px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #808080;  /* Changed this */
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+	.button-predict {
+            position: absolute;
+            box-sizing: border-box;
+            width: 100px;
+            height: 50px;
+            padding: 5px;
+            bottom: 0px;
+            right: -170px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #808080;  /* Changed this */
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+	.button-new_class:hover,.button-prev:hover,.button-next:hover,.button-upload:hover,.button-save:hover,.button-change:hover,.button-predict:hover {
+            background-color: #A9A9A9;  /* And this */
+	}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 header-text-top " id="about">
+                        <h1><strong>instance segmentation labeling platform</strong></h1>
+			<p>此專題針對物件大小辨識的快速邊緣裝置系統建構，實作整合標記與訓練模型功能於平台，透過半監督式學習的方式，提升標記效率、降低所需標記量，並使其具備實例分割的功能，再加上邊緣裝置，完成軟硬體的整合，使系統可以快速應用至各個產業中。</p>
+			</br>
+			<h3>負責人</h3>
+                        <p>廖藝涵、施采廷、詹益瑋</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END HEADER SECTION-->
+    <div class="info-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                   如有問題請聯繫rruubbyy042@gmail.com, wastiffany168@gmail.com, chan0909678891@gmail.com
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="center-box">
+		<div class="right-box"></div>
+		<div class="button-new_class">增加類別</div>
+		<div class="button-prev">上一張</div>
+		<div class="button-next">下一張</div>
+		<div class="button-upload">上傳照片</div>
+		<div class="button-save">儲存</div>
+		<div class="button-change">調整參數</div>
+		<div class="button-predict">預測</div>
+    </div>
+	<div class="footer-sec" style="margin-top: 40px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 foo-inner">
+                    <p>2023.06.05</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+</html>
